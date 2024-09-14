@@ -1,0 +1,5 @@
+pandoc.exe report.md -F pandoc-crossref —pdf-engine='lualatex' —number-sections -o report.docx
+
+pandoc.exe report.md -F pandoc-crossref —pdf-engine='lualatex' —number-sections -o report.pdf
+
+pandoc.exe presentation.md -F pandoc-crossref —pdf-engine='lualatex' —number-sections -t beamer —slide-level=2 -o presentation.pdf 
